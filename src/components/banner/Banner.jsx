@@ -6,14 +6,15 @@ import BannerImg from "../../assets/bannerImg.png";
 
 const Banner = () => {
   return (
-    <section>
+    <section className="bann-sec">
       <Container>
         <Row>
-          <Col lg={5}>
-            <div>
-              <button>Startup Business</button>
+          <Col lg={7}>
+            <div className="bann-btn1">
+              <button className="btn1">Startup Business
+              </button>
             </div>
-            <div>
+            <div className="bann-mid">
               <h3>Empowering startups to fuel their business growth</h3>
               <p>
                 Eu posuere mi sed purus proin quisque molestie. Ut amet, at
@@ -21,11 +22,14 @@ const Banner = () => {
                 sodales.
               </p>
             </div>
-            <button>Get started now</button>
+            <div className="bann-end">
+              <button className="end-btn">Get started now
+              </button>
+            </div>
           </Col>
 
           <Col lg={5}>
-            <Image src={BannerImg} />
+            <Image className='design' src={BannerImg} />
           </Col>
         </Row>
       </Container>
