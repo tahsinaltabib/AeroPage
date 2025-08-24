@@ -3,6 +3,8 @@ import "./banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "../../reuseable/Image";
 import BannerImg from "../../assets/bannerImg.png";
+import { FaBell } from "react-icons/fa";
+
 
 const Banner = () => {
   return (
@@ -10,10 +12,12 @@ const Banner = () => {
       <Container>
         <Row>
           <Col lg={7}>
-            <div className="bann-btn1">
-              <button className="btn1">Startup Business
+              <button className="btn1">
+                <div className="btn-icon">
+                <FaBell />
+              </div>
+                Startup Business
               </button>
-            </div>
             <div className="bann-mid">
               <h3>Empowering startups to fuel their business growth</h3>
               <p>

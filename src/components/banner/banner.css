@@ -8,6 +8,23 @@
 .bann-sec .bann-btn1 .btn1{
   padding: 0;
 }
+.bann-sec .btn1{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+  border: #000 solid 2px;
+  border-radius: 30px;
+  padding: 9px 9px 9px 0px;
+}
+.bann-sec .btn1 .btn-icon{
+  background: #FAD7C4;
+  padding: 8px;
+  border-radius: 50%;
+}
 .bann-sec .bann-mid h3{
   padding-top: 35px;
   font-family: "Roboto", sans-serif;
@@ -25,4 +42,20 @@
 }
 .bann-sec .bann-end{
   padding-top: 37px;
+}
+.bann-sec .bann-end .end-btn{
+  border: none;
+  background: transparent;
+  background: #EA580C;
+  color: #ffff;
+  padding: 9px 23px 9px 33px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px;
+  transition: .4s;
+}
+.bann-sec .bann-end .end-btn:hover{
+  background: #000;
+  color: #FAD0BC;
 }
