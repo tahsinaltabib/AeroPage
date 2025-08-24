@@ -9,6 +9,7 @@
   padding: 0;
 }
 .bann-sec .btn1{
+  margin: 0;
   display: flex;
   align-items: center;
   gap: 7px;
@@ -17,12 +18,12 @@
   font-weight: 400;
   background: transparent;
   border: #000 solid 2px;
-  border-radius: 30px;
-  padding: 9px 9px 9px 0px;
+  border-radius: 25px;
+  padding: 0px 9px 0px 0px;
 }
 .bann-sec .btn1 .btn-icon{
-  background: #FAD7C4;
-  padding: 8px;
+  background-color: #FAD7C4;
+  padding: 6px 10px 8px 8px;
   border-radius: 50%;
 }
 .bann-sec .bann-mid h3{
