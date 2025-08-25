@@ -10,12 +10,12 @@ const Navber = () => {
     <section className='header-nav'>
       <Container>
         <Navbar expand='lg' className=''>
-          <Navbar.Brand>
+          <Navbar.Brand className="nav-logo">
             {" "}
-            <Image src={Logo} />
+            <Image className="nav-logo" src={Logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Collapse className="menu-resp" id='basic-navbar-nav'>
             <Nav className='mx-auto nav-mid'>
               <Nav.Link className="mid-menu">Home</Nav.Link>
               <Nav.Link className="mid-menu">About</Nav.Link>
